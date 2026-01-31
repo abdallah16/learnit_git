@@ -29,5 +29,15 @@ git branch -a
 create and change to the new branch : 
 git checkout -b TA0001_discount_calculation
 
+change or switch  branch : 
+git switch main //change the branche to main
 
+git switch -c new_branch // create and change to the "new_branch" //-c: means create
 
+Delete a branch: 
+from local : 
+git branch -d TA0001
+Deleted branch TA0001 (was eafbce7).
+
+from remote repo (note : we are using "push") : 
+git push origin --delete <branche name>
