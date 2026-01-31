@@ -1,0 +1,33 @@
+how to remove password from ssh key:
+ssh-keygen -p
+Enter file in which the key is (/home/you/.ssh/id_rsa):/c/Users/abdou/.ssh/id_rsa
+enter old password then press enter 
+
+----------------------------------
+git resolve conflicts between local and remote repo:
+git checkout --theirs readme.md//to keep remote repo version 
+git checkout --ours readme.md //to keep local version 
+git add readme.md
+git commit -m "Resolve merge conflict"
+
+and push it to repo with : git push origin main 
+----------------------------------
+Git Branching:
+
+create new branch : git branch <name of branch> ,  example : git branch TA0001
+
+see branch in remote repo : git branch -r
+origin/main
+
+see branch in all repo : git branch -a
+git branch -a
+  TA0001
+* main
+  remotes/origin/main
+
+
+create and change to the new branch : 
+git checkout -b TA0001_discount_calculation
+
+
+
